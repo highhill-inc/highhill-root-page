@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- ✅ AdSenseサイト認証 -->
     <meta name="google-adsense-account" content="ca-pub-263367733208621" />
-    <!-- ✅ AdSense広告タグ -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-263367733208621" crossorigin="anonymous"></script>
     <style>
         body {
             font-family: sans-serif;
@@ -48,8 +46,20 @@
             font-weight: normal;
             color: #444;
         }
+        .footer-links {
+            margin-top: 40px;
+            font-size: 0.85rem;
+        }
+        .footer-links a {
+            margin: 0 8px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
         footer {
-            margin-top: 50px;
+            margin-top: 30px;
             font-size: 0.8rem;
             color: #aaa;
         }
@@ -59,6 +69,17 @@
     <h1>HighHillへようこそ</h1>
     <p class="subtext">現在、一部サービスを順次公開中です。<br>第一弾サービス：ひとことBot</p>
     <a href="https://hitokoto-bot.highhill.net/" class="button">ひとことBotはこちら</a>
+
+    <!-- ✅ AdSense 広告表示タグ -->
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-client="ca-pub-263367733208621"
+         data-ad-slot="7959093445"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 
     <div class="info-section">
         <h4>プライバシーポリシー</h4>
@@ -70,6 +91,17 @@
         <p>ご連絡は <a href="mailto:info@highhill.net">info@highhill.net</a> までお願いいたします。</p>
     </div>
 
+    <!-- 🔽 フッターリンク追加ここから -->
+    <div class="footer-links">
+        <a href="/privacy">プライバシーポリシー</a> |
+        <a href="/about">開発者について</a> |
+        <a href="/howto">使い方ガイド</a>
+    </div>
+    <!-- 🔼 フッターリンク追加ここまで -->
+
     <footer>© 2025 HighHill Inc. All Rights Reserved.</footer>
+
+    <!-- ✅ AdSense JavaScript -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-263367733208621" crossorigin="anonymous"></script>
 </body>
 </html>
